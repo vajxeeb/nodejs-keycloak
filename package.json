@@ -1,0 +1,37 @@
+{
+  "name": "excel_finance_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles",
+    "start": "nodemon server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "datapumps": "^0.5.1",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "mocha": "^9.1.2",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
+    "xlsx": "^0.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "kill-port": "^1.6.1"
+  }
+}
